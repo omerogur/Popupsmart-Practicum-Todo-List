@@ -1,3 +1,21 @@
+
+#PROJECT#
+https://mockapi.io/  üyelik oluşturularak gerekli endpoint oluşturuldu.
+
+### `TODO App de gerçekleştirmenizi istediklerimiz ise şunlar`
+Kullanıcıdan kullanıcı adı alınmasını ve localstorage da saklamanızı istiyoruz. Sayfanın herhangi bir yerinde kullanıcı adını gösterebilirsiniz
+
+Todolar üzerinde tüm CRUD operasyonlarının gerçekleşmesini istiyoruz. (Todo ekleme, silme, düzenleme, todoları listeleme). Tüm operasyonları, oluşturduğunuz API üzerinden gerçekleştirmelisiniz.
+
+Yeni todo eklenirken input field’ı boş olmamalı, minimum 3 karakter içermeli.
+
+Promise, .then veya async/await ile asenkron işlemleri gerçekleştirebilirsiniz.
+
+Bonus
+Dark Mode : Kullanıcının dark mode tercihini localestorage’da saklayarak uygulamanıza dark mode ekleyebilirsiniz.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
