@@ -1,0 +1,150 @@
+*{
+  box-sizing: border-box;
+}
+.body{
+  width: 100%;
+  height: 100vh;
+  
+}
+html{
+  background-color:rgba(241, 177, 177, 0.333);
+}
+.header{
+  
+   display: flex;
+   flex-direction: row;
+   padding-top: 7rem;
+   justify-content: center;
+  
+}
+.header input{
+  padding: 1rem;
+  border: 1px solid #dddd;
+  border-radius: 5px 5px 0 0;
+  width: 20%;
+  outline: none;
+ 
+}
+.header button{
+  padding: 1rem 2rem;
+  border: 1px solid #dddd;
+  border-radius: 0px 5px 5px 0;
+  
+}
+.list{
+  background-color: rgba(241, 177, 177, 0.333);
+  border:1px solid rgba(241, 177, 177, 0.333);
+  display: flex;
+  flex-direction: column;
+  margin:2rem;
+  padding: 20px;
+  text-align: left;
+}
+.list li{
+  border-bottom: 1px solid  black;
+  margin-top: 1rem;
+  list-style: none;
+  padding: 15px 0;
+  text-align: left;
+  display: flex;
+  justify-content:space-between;
+}
+.li_elements button{
+ background-color: red;
+
+}
+.inputError{
+  color: red;
+  display: flex;
+  justify-content: center;
+}
+.list li:hover {
+  background:rgba(235, 183, 183, 0.333);
+}
+.alert {
+  border: 2px solid red !important; 
+}
+.list li span {
+   font-size: 1.5rem; 
+   font-weight: 600;
+   
+}
+
+.editInput{
+  display: flex;
+  position: absolute;
+  width: 35rem;
+  height: 3rem;
+  top: 13rem;
+}
+.editContainer{
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ background-color: rgba(10, 7, 7, 0.767);
+  width: 100vw;
+  height: 100vh;
+}
+.editContainer button {
+  display: flex;
+  position: relative;
+  bottom: 10rem;
+  padding: 1rem 2rem;
+  border: 1px solid #dddd;
+ 
+}
+.cancel{
+  background-color: red;
+}
+.succes{
+  background-color: green;
+}
+.icons *{
+  margin-left: 1rem;
+  color: tomato;
+}
+
+.nightIcon{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 6rem;
+  
+}
+.dark-theme{
+  --main-heading :"red";
+  background-color: black;
+}
+.login{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  padding: 50px;
+  border-radius: 10px;
+  background-color: gray;
+  }
+  .login input {
+      padding: 10px;
+      border: 1px solid #ddd;
+      margin: 10px 0;
+      outline: none;
+  }
+  .login  label{
+      font-weight: bold;
+  }
+  .login button {
+      padding: 10px;
+      border: 0;
+      background-color: blue;
+      color: #fff;
+      outline: none;
+  }
+  .Home{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+  }
