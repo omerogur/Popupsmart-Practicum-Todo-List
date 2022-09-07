@@ -1,6 +1,9 @@
 
 #PROJECT#
 live: https://popupsmart-practicum-todo-list-omerogur.vercel.app/
+
+
+
 https://mockapi.io/  üyelik oluşturularak gerekli endpoint oluşturuldu.
 
 ### `TODO App de gerçekleştirmenizi istediklerimiz ise şunlar`
