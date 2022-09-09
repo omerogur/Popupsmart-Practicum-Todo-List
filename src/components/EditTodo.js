@@ -22,6 +22,7 @@ const EditTodo = ({ handleRefresh }) => {
                 <div className='editContainer'>
                     <input type="text"
                         className='editInput'
+                        autoFocus
                         defaultValue={initialValue.content}
                         onChange={(e) => setInitialValue({ ...initialValue, content: e.target.value })} />
                     <button className='succes' onClick={changeContent}>Update</button>

@@ -148,3 +148,7 @@ html{
     text-align: center;
    
   }
+  input[type="text"]:focus{
+    outline:0;
+    border-color: rgb(68, 176, 255);
+  }

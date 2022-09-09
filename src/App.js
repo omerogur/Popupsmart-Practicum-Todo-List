@@ -61,7 +61,7 @@ function App() {
       <div className='body'>
        
     <div className="nightIcon"> <NightsStayIcon style={{fontSize:"4rem",color: theme==="light-theme"  ? "black" : "yellow"}} onClick={changeMode}/>
-    <Logout setUser={setUser}/>
+    <Logout setUser={setUser} />
     </div>
     <h1  style={{color:"red"}}>User: <span style={{color: theme==="light-theme"  ? "black" : "red"}}>{user}</span></h1>
      <EditTodo handleRefresh={handleRefresh} />
